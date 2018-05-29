@@ -1,2 +1,2 @@
 #Album App Prototype
-![alt text](./image/prototype.jpg) </br>
+![alt text](./images/prototype.jpg) </br>
