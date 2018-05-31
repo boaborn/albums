@@ -27,6 +27,7 @@
     "comma-dangle": ["error", "never"],
     "react/jsx-curly-spacing": ["error", {"when": "always", "children": true}],
     "react/jsx-indent": ["error", 2],
+    "camelcase": 0,
     "require-jsdoc": ["error", {
         "require": {
             "FunctionDeclaration": false,

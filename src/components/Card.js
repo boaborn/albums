@@ -1,0 +1,34 @@
+import React, { Component } from 'react'
+import { View, Platform} from 'react-native'
+
+const Card = (props) => (
+  <View style={ styles.containerStyle }>
+    { props.children }
+  </View>
+)
+
+const styles = {
+  containerStyle: {
+    borderWidth: 1,
+    borderRadius: 2,
+    borderColor: '#ddd',
+    borderBottomWidth: 0,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2},
+    shadowRadius: 2,
+    marginLeft: 5,
+    marginRight: 5,
+    marginTop: 10,
+    ...Platform.select({
+      ios: {
+        paddingTop: 15,
+        shadowOpacity: 0.3
+      },
+      android: {
+        elevation: 3
+      }
+    })
+    
+  }
+}
+export default Card
