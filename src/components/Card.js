@@ -9,6 +9,7 @@ const Card = (props) => (
 
 const styles = {
   containerStyle: {
+    backgroundColor: 'white',
     borderWidth: 1,
     borderRadius: 2,
     borderColor: '#ddd',
@@ -19,9 +20,9 @@ const styles = {
     marginLeft: 5,
     marginRight: 5,
     marginTop: 10,
+    shadowOpacity: 0,
     ...Platform.select({
       ios: {
-        paddingTop: 15,
         shadowOpacity: 0.3
       },
       android: {
