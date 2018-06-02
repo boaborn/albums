@@ -1,5 +1,5 @@
 # Album App 
-React-native, support ios and android
+My first React-native project, support ios and android
 
 # Album App Prototype
 ![alt text](./images/prototype.jpg) </br>
